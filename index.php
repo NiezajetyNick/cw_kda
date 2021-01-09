@@ -39,8 +39,8 @@
 
             while($row=$res->fetch_assoc()){
                 echo("<tr>
-                <td>".$row['K']."</td>
-                <td>".$row['D']."</td>
+                <td>".($row['K']*1)."</td>
+                <td>".($row['D']*1)."</td>
                 <td>".($row['A']*2)."s</td>
                 </tr>");
             }
