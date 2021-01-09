@@ -1,19 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
     display: grid;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
     grid-template-rows: 2fr 10fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: 
     "h"
     "m"
     "f";
+    background-image: url(https://lh3.googleusercontent.com/proxy/YQPAiSvrqTCEVe2ne1jpkhN-mY9WGlW39qTuz3N0Wc5-FoM05Dy333rO7yAxL3FhTK06_CWhcjdVK1wGbxuvb00Cr3uSqHS5feTi8eQ0H0bR80qAuduSd0xWlYSSeKqIWU5LYxZwO2slOF1Pf_9nIi6E);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 head{
@@ -21,6 +24,25 @@ head{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tabik{
+    text-align: center;
+    border: lightgreen solid 1px;
+    /* height: 20%;
+    width: 10%; */
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+th,td{
+    height: 80px;
+    width: 160px;
+}
+
+td{
+    font-size: 40px;
+    font-weight: 800;
 }
 
 main{
@@ -38,7 +60,6 @@ footer{
 }
 
 .opis{
-    background-color: pink;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -50,7 +71,10 @@ footer{
 .tab{
     height: 80%;
     width: 100%;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .KDA{
@@ -59,8 +83,10 @@ footer{
     align-items: center;
 }
 
-input{
-    width: 2.5vw;
+.g2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 b{
@@ -68,4 +94,18 @@ b{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin: 10px;
+}
+
+input{
+    width: 4.5vw;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.btn{
+    background-color: #fff;
+    color: magenta;
+    border: none;
+    font-size: 30px;
 }
