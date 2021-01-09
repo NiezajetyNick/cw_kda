@@ -53,7 +53,7 @@
                 <input name="K" type="text" placeholder="Brzuszek"><b> / </b>
                 <input name="D" type="text" placeholder="Pompka"><b> / </b>
                 <input name="A" type="text" placeholder="Deska"><b>  </b>
-                <input class='btn' type="button" value="-">
+                <input class='btn' type="submit" value="-">
             </form>
 
         </div>
@@ -67,7 +67,7 @@
                 <input name="K" type="text" placeholder="KILL"><b> / </b>
                 <input name="D" type="text" placeholder="DEATH"><b> / </b>
                 <input name="A" type="text" placeholder="ASSIST"><b>  </b>
-                <input class='btn' type="button" value="+">
+                <input class='btn' type="submit" value="+">
             </form>
         </div>
 
