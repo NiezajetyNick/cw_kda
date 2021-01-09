@@ -7,7 +7,7 @@
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
-    $sql = $conn->query("INSERT INTO `cw-kda`(`K`, `D`, `A`) VALUES ('".($_POST['K']*-1)."','".($_POST['D']*-1)."','".($_POST['A']/-2*-1)."')");
+    $sql = $conn->query("INSERT INTO `cw-kda`(`K`, `D`, `A`) VALUES ('".($_POST['K']*-1)."','".($_POST['D']*-1)."','".($_POST['A']/-2)."')");
 
     mysqli_query($conn, $sql);
 
