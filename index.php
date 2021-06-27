@@ -17,6 +17,44 @@
 
     <main>
 
+        <div class="gora">
+
+            <h1>In total</h1>
+
+            <?php
+
+            $servername = "remotemysql.com";
+            $username = "EItVVUd8zl";
+            $password = "MadGhgwbbw";
+            $dbname = "EItVVUd8zl";
+
+            $conn = new mysqli($servername, $username, $password, $dbname);
+
+            $res = $conn->query("SELECT sum(K) as K,sum(D) as D,sum(A) as A FROM `cw-kda`");
+
+            echo("<table class='tabik' border=1>");
+            echo("<tr>
+            <th>Brzuszek</th>
+            <th>Pompka</th>
+            <th>Deska</th>
+            </tr>");
+
+            while($row=$res->fetch_assoc()){
+                echo("<tr>
+                <td>".($row['K']*1)."</td>
+                <td>".($row['D']*1)."</td>
+                <td>".($row['A']*1)."s</td>
+                </tr>");
+            }
+
+
+            echo("</table>");
+
+            ?>
+
+        </div>
+
+
         <div class="tab">
 
             <?php

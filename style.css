@@ -14,7 +14,7 @@ body{
     "h"
     "m"
     "f";
-    background-image: url(https://designiwnetrze.pl/wp-content/uploads/2019/10/tlo-do-prezentacji.jpg);
+    background-image: url(https://lh3.googleusercontent.com/proxy/YQPAiSvrqTCEVe2ne1jpkhN-mY9WGlW39qTuz3N0Wc5-FoM05Dy333rO7yAxL3FhTK06_CWhcjdVK1wGbxuvb00Cr3uSqHS5feTi8eQ0H0bR80qAuduSd0xWlYSSeKqIWU5LYxZwO2slOF1Pf_9nIi6E);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -50,6 +50,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 footer{
@@ -68,8 +69,17 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.gora{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .tab{
-    height: 80%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: center;
