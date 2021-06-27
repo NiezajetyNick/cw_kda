@@ -31,7 +31,7 @@
 
             $conn = new mysqli($servername, $username, $password, $dbname);
 
-            $res = $conn->query("SELECT sum(K) as K,sum(D) as D,sum(A) as A FROM `cw-kda`");
+            $res = $conn->query("SELECT sum(K) as K,sum(D) as D,sum(A) as A FROM `inTot`");
 
             echo("<table class='tabik' border=1>");
             echo("<tr>
